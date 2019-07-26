@@ -102,6 +102,7 @@ html {
             .logo:hover,
             .nav-links:hover {
                 color: #a9a9a9;
+                transition-duration: 0.5s;
             }
         }
 
