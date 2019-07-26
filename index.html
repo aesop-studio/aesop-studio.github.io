@@ -7,8 +7,6 @@
       <meta http-equiv="X-UA-Compatible"
       content="ie=edge">
 
-      <script defer
-      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
       <link rel="stylesheet" href="style.css">
       <title>Aesop</title>
 
@@ -17,7 +15,27 @@
   <header>
 
     <div class="wrapper">
-      <nav>
+      <nav class="navbar">
+          <span class="navbar-toggle" id="js-navbar-toggle">
+              <i class="fas fa-bars"></i>
+          </span>
+          <a href="#" class="logo">Aesop</a>
+          <ul class="main-nav" id="js-menu">
+              <li>
+                  <a href="#" class="nav-links">About</a>
+              </li>
+              <li>
+                  <a href="#" class="nav-links">Whitepaper</a>
+              </li>
+              <li>
+                  <a href="#" class="nav-links">Blog</a>
+              </li>
+              <li>
+                  <a href="#" class="nav-links">Contact Us</a>
+              </li>
+          </ul>
+      </nav>
+      <!--<nav>
 
         <ul>
           <div class="logo"
@@ -28,7 +46,7 @@
         </div>
       </nav>
     </div>
-
+-->
     <!--Top Container-->
     <div class="wrapper1">
       <section class="top-container">
@@ -43,5 +61,12 @@
           </header>
         </section>
     </div>
+
+    <body>
+      <script src="scripts/main.js"></script>
+      <script defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    </body>
+
     <br></br><br></br>
 </html>
