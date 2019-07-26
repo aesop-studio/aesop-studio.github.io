@@ -5,18 +5,6 @@ html {
 }
 
 
-.logo a {
-  color: #000;
-  float: left;
-  padding: 2px 20px 1px 1px;
-  position: fixed;
-  margin: 30px 20px;
-  font-size: 24px;
-  text-decoration: none;
-  display:inline;
-}
-
-
 
 .wrapper{
   display: grid;
@@ -25,26 +13,45 @@ html {
 }
 
 .wrapper1{
+  display: grid;
+  grid-gap: 20px;
   text-align: center;
 }
 
 /*Navigation*/
 
-.main-nav ul {
-  float: right;
-  display: grid;
-  padding: 0;
-  list-style: none;
-  grid-template-columns: 1fr 1fr
-}
-
-.main-nav a {
+nav a {
   diplay: block;
   text-decoration: none;
-  padding: 0.8rem;
+  padding-top: 2rem;
+  padding: 1rem;
   text-align: center;
   color: #000;
   font-size: 1.1rem;
+}
+
+
+nav ul li:first-child {
+  float: left;
+}
+
+.logo a {
+  color: #000;
+  float: left;
+  padding: 2px 20px 1px 1px;
+  margin-top: 15px;
+  font-size: 30px;
+  text-decoration: none;
+  display:inline;
+}
+
+
+nav ul li {
+  float: right;
+  display: grid;
+  margin: 10px;
+  padding: 0;
+  list-style: none;
 }
 
 
