@@ -172,14 +172,14 @@ p {
     float: none;
     display: block;
     text-align: left;
-    margin: 10px;
-             
-             
   }
   nav ul li {
     float: none;
     justify-content: right;
     padding-top: 20px;
     line-height: 0px;
+  }
+  p {
+    margin: 50px;
   }
 }
