@@ -123,7 +123,7 @@ p {
   font-weight: 200;
   color: #2e2e2e;
   text-align: left;
-  padding: 50px;
+  margin: 150px;
 }
 
 
@@ -172,6 +172,9 @@ p {
     float: none;
     display: block;
     text-align: left;
+    margin: 10px;
+             
+             
   }
   nav ul li {
     float: none;
